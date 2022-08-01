@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FileTableViewCell" rowHeight="111" id="KGk-i7-Jjw" customClass="FileTableViewCell" customModule="NagwaTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="music.note" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="nDi-Bz-DTt">
+                        <rect key="frame" x="8" y="8.5" width="95" height="94"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="nDi-Bz-DTt" secondAttribute="height" multiplier="1:1" id="Xnv-Rt-93A"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="aMH-0i-GZG">
+                        <rect key="frame" x="111" y="8" width="201" height="69"/>
+                        <string key="text">Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label LabelLabel Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label LabelLabel Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label LabelLabel Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label Label</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbk-6m-Cgg">
+                        <rect key="frame" x="270.5" y="82" width="41.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="aMH-0i-GZG" secondAttribute="trailing" constant="8" id="10G-ia-35p"/>
+                    <constraint firstAttribute="bottom" secondItem="gbk-6m-Cgg" secondAttribute="bottom" constant="8" id="7Oy-L3-5SH"/>
+                    <constraint firstItem="nDi-Bz-DTt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ASB-M8-dHN"/>
+                    <constraint firstAttribute="bottom" secondItem="nDi-Bz-DTt" secondAttribute="bottom" constant="8" id="FOh-eE-8GT"/>
+                    <constraint firstItem="gbk-6m-Cgg" firstAttribute="top" relation="greaterThanOrEqual" secondItem="aMH-0i-GZG" secondAttribute="bottom" constant="5" id="GTW-rD-c1l"/>
+                    <constraint firstAttribute="trailing" secondItem="gbk-6m-Cgg" secondAttribute="trailing" constant="8" id="XB5-Ut-fxS"/>
+                    <constraint firstItem="nDi-Bz-DTt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="gf9-0V-ks9"/>
+                    <constraint firstItem="aMH-0i-GZG" firstAttribute="top" secondItem="nDi-Bz-DTt" secondAttribute="top" id="lGX-oW-xvh"/>
+                    <constraint firstItem="aMH-0i-GZG" firstAttribute="leading" secondItem="nDi-Bz-DTt" secondAttribute="trailing" constant="8" id="mt2-Ty-Euy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="audioDurationLabel" destination="gbk-6m-Cgg" id="jgc-u4-Umi"/>
+                <outlet property="fileImageView" destination="nDi-Bz-DTt" id="eGV-wb-vMB"/>
+                <outlet property="fileNameLabel" destination="aMH-0i-GZG" id="S8x-Ss-2st"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="158.37053571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="music.note" catalog="system" width="97" height="128"/>
+    </resources>
+</document>
