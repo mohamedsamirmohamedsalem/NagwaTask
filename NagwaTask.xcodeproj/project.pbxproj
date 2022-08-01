@@ -126,7 +126,7 @@
 			children = (
 				32F508F427F24B5400A51CEB /* Scene */,
 				326A393D27F0FEE800EEB279 /* Helpers */,
-				326A393727F0F42200EEB279 /* Resouces */,
+				326A393727F0F42200EEB279 /* Resources */,
 				326A393627F0F41800EEB279 /* Core */,
 				326A38FD27F0F28200EEB279 /* LaunchScreen.storyboard */,
 			);
@@ -203,13 +203,13 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		326A393727F0F42200EEB279 /* Resouces */ = {
+		326A393727F0F42200EEB279 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				326A390027F0F28200EEB279 /* Info.plist */,
 				326A38FB27F0F28200EEB279 /* Assets.xcassets */,
 			);
-			path = Resouces;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		326A393827F0F4B600EEB279 /* Cells */ = {
@@ -601,7 +601,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4A3GDCJZQY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NagwaTask/Info.plist;
+				INFOPLIST_FILE = NagwaTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -631,7 +631,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4A3GDCJZQY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NagwaTask/Info.plist;
+				INFOPLIST_FILE = NagwaTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
