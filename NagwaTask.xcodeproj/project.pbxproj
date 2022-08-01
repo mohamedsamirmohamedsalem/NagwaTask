@@ -103,7 +103,6 @@
 		326A38E627F0F28000EEB279 = {
 			isa = PBXGroup;
 			children = (
-				6022586D2897E7AA00555996 /* New Group */,
 				326A38F127F0F28000EEB279 /* NagwaTask */,
 				326A390827F0F28300EEB279 /* NagwaTaskTests */,
 				326A391227F0F28300EEB279 /* NagwaTaskUITests */,
@@ -128,7 +127,7 @@
 				326A393D27F0FEE800EEB279 /* Extentions */,
 				326A393727F0F42200EEB279 /* Resources */,
 				326A393627F0F41800EEB279 /* Core */,
-				326A38FD27F0F28200EEB279 /* LaunchScreen.storyboard */,
+				6022586E2897E9AE00555996 /* View */,
 			);
 			path = NagwaTask;
 			sourceTree = "<group>";
@@ -276,11 +275,12 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		6022586D2897E7AA00555996 /* New Group */ = {
+		6022586E2897E9AE00555996 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				326A38FD27F0F28200EEB279 /* LaunchScreen.storyboard */,
 			);
-			path = "New Group";
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
