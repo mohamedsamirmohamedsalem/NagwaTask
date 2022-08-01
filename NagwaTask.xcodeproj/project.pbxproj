@@ -103,6 +103,7 @@
 		326A38E627F0F28000EEB279 = {
 			isa = PBXGroup;
 			children = (
+				6022586D2897E7AA00555996 /* New Group */,
 				326A38F127F0F28000EEB279 /* NagwaTask */,
 				326A390827F0F28300EEB279 /* NagwaTaskTests */,
 				326A391227F0F28300EEB279 /* NagwaTaskUITests */,
@@ -128,7 +129,6 @@
 				326A393727F0F42200EEB279 /* Resouces */,
 				326A393627F0F41800EEB279 /* Core */,
 				326A38FD27F0F28200EEB279 /* LaunchScreen.storyboard */,
-				326A390027F0F28200EEB279 /* Info.plist */,
 			);
 			path = NagwaTask;
 			sourceTree = "<group>";
@@ -206,6 +206,7 @@
 		326A393727F0F42200EEB279 /* Resouces */ = {
 			isa = PBXGroup;
 			children = (
+				326A390027F0F28200EEB279 /* Info.plist */,
 				326A38FB27F0F28200EEB279 /* Assets.xcassets */,
 			);
 			path = Resouces;
@@ -273,6 +274,13 @@
 				32F5090527F24C8300A51CEB /* AudioPlayerViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6022586D2897E7AA00555996 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -591,7 +599,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				DEVELOPMENT_TEAM = 4A3GDCJZQY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NagwaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -606,7 +614,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ZyadGalal.NagwaTask;
+				PRODUCT_BUNDLE_IDENTIFIER = MohamedSamirEG.nagwaTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -621,7 +629,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MLXYZ7TJ5Q;
+				DEVELOPMENT_TEAM = 4A3GDCJZQY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NagwaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -636,7 +644,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ZyadGalal.NagwaTask;
+				PRODUCT_BUNDLE_IDENTIFIER = MohamedSamirEG.nagwaTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
