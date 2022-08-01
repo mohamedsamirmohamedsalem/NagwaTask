@@ -3,7 +3,7 @@
 //  SnapSkin
 //
 //  Created by macOS on 12/16/19.
-//  Copyright © 2019 macOS. All rights reserved.
+//  Copyright © 2022 macOS. All rights reserved.
 //
 
 import UIKit

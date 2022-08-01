@@ -125,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				32F508F427F24B5400A51CEB /* Scene */,
-				326A393D27F0FEE800EEB279 /* Helpers */,
+				326A393D27F0FEE800EEB279 /* Extentions */,
 				326A393727F0F42200EEB279 /* Resources */,
 				326A393627F0F41800EEB279 /* Core */,
 				326A38FD27F0F28200EEB279 /* LaunchScreen.storyboard */,
@@ -221,7 +221,7 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		326A393D27F0FEE800EEB279 /* Helpers */ = {
+		326A393D27F0FEE800EEB279 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
 				329DA35127F8FCB500CE866D /* UIViewControllerExtension.swift */,
@@ -229,7 +229,7 @@
 				326A393E27F0FF4C00EEB279 /* UITableView + Extensions.swift */,
 				32796E1B27F4F62D0027EF6C /* TimeInterval+Extension.swift */,
 			);
-			path = Helpers;
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 		32F508F427F24B5400A51CEB /* Scene */ = {

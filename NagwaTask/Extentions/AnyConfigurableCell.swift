@@ -1,9 +1,8 @@
 //
 //  File.swift
-//  ytsInCode
 //
 //  Created by Mohamed Samir on 9/20/19.
-//  Copyright © 2019 Mohamed Samir. All rights reserved.
+//  Copyright © 2022 Mohamed Samir. All rights reserved.
 //
 
 import UIKit
@@ -21,16 +20,16 @@ protocol CellConfigurator {
 class TableCellConfigurator<CellType: ConfigurableCell, DataType>: CellConfigurator where CellType.Model == DataType, CellType: UITableViewCell {
     
     static var reuseId: String { return String(describing: CellType.self) }
-    let completeConfiugration: ((CellType, IndexPath) -> ())?
+    let completeConfiguration: ((CellType, IndexPath) -> ())?
     let item: DataType
     
-    init(item: DataType,_ completeConfiugration: ((_ cell: CellType, _ indexPath: IndexPath) -> ())? = nil) {
+    init(item: DataType,_ completeConfiguration: ((_ cell: CellType, _ indexPath: IndexPath) -> ())? = nil) {
         self.item = item
-        self.completeConfiugration = completeConfiugration
+        self.completeConfiguration = completeConfiguration
     }
     
     func configure(cell: UIView ,at indexPath : IndexPath) {
-        completeConfiugration?(cell as! CellType, indexPath)
+        completeConfiguration?(cell as! CellType, indexPath)
         (cell as! CellType).configure(model: item)
     }
 }
